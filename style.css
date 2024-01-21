@@ -1,0 +1,132 @@
+.top{
+    padding: 10px 0px;
+    background-color: rgba(0, 0, 0, 0.618);
+}
+.box-img{
+    width: 100vw;
+    height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+  
+}
+.content-box{
+    /* background-color: rgb(255, 77, 0); */
+    width: 750px;
+    height:auto;
+    margin: auto ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    /* padding: 20px;     */
+}
+.content-box .box{
+    height: 80px;
+    align-items: center;
+    /* background-color: black; */
+    text-align: center;
+}
+.box h2{
+   padding: 18px 0px;
+}
+.bigbox{
+    padding: 0px  0px !important;
+}
+ .box h1{
+    color: white;
+}
+.start{
+    background-color:rgba(244, 171, 171, 0.672);
+}
+/* Start section */
+.start i{
+    color: aqua;
+    padding-right: 15px;
+}   
+.start h2{
+    color: blue;
+}
+.start #start-time{
+    color: aquamarine;
+}
+/* Stop section */
+.stop{
+    background-color: rgba(0, 255, 255, 0.56);
+}
+.stop i{
+    color: red;
+    padding-right: 15px;
+}   
+.stop h2{
+    color: blue;
+}
+.stop #stop-time{
+    color: red;
+}
+/* Minute section */
+.minute{
+    background-color: rgba(8, 129, 181, 0.517);
+}
+.minute i{
+    color: yellow;
+    padding-right: 15px;
+}   
+.minute h2{
+    color: black;
+}
+.minute #minute-time{
+    color: yellow;
+}
+.real{
+    background-color: rgba(9, 176, 101, 0.517);
+}
+.real i{
+    color: yellow;
+    padding-right: 15px;
+}   
+.real h2{
+    color: black;
+}
+.real #minute-time{
+    color: yellow;
+}
+/* Button section */
+.btns{
+    padding: 18px 0px;
+    background-color: rgba(128, 128, 128, 0.768);
+}
+.btns button{
+  padding: 10px 28px;
+}
+
+/* Footer section */
+.box footer .txt-footer{
+    font-size: 20px;
+    color: white;
+}
+.content-box .datetime{
+    padding: 10px;
+    background-color: rgba(137, 43, 226, 0.603);
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+.footer {
+    background-color: lightskyblue;
+}
+.footer h2 {
+   color: white;
+   font-size: 30px;
+}
+.footer i {
+    color: brown;
+ }
+ 
+
+
+
